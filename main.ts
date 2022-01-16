@@ -1,10 +1,10 @@
 function zeile6 () {
     music.playTone(659, music.beat(BeatFraction.Quarter))
     music.playTone(659, music.beat(BeatFraction.Eighth))
-    music.playTone(523, music.beat(BeatFraction.Quarter))
+    music.playTone(523, music.beat(BeatFraction.Eighth))
     music.playTone(659, music.beat(BeatFraction.Quarter))
-    music.playTone(587, music.beat(BeatFraction.Quarter))
-    music.playTone(523, music.beat(BeatFraction.Quarter))
+    music.playTone(587, music.beat(BeatFraction.Eighth))
+    music.playTone(523, music.beat(BeatFraction.Eighth))
     music.playTone(494, music.beat(BeatFraction.Quarter))
     music.playTone(494, music.beat(BeatFraction.Eighth))
     music.playTone(523, music.beat(BeatFraction.Eighth))
@@ -13,6 +13,7 @@ function zeile6 () {
     music.playTone(523, music.beat(BeatFraction.Quarter))
     music.playTone(440, music.beat(BeatFraction.Quarter))
     music.playTone(440, music.beat(BeatFraction.Quarter))
+    music.rest(music.beat(BeatFraction.Quarter))
 }
 function zeile4 () {
     music.playTone(294, music.beat(BeatFraction.Half))
