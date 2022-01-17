@@ -125,40 +125,40 @@ basic.forever(function () {
     for (let Index = 0; Index <= 10; Index++) {
         versatz = -5 + Index
         images.createImage(`
-            . # # . .
-            . # # . .
-            . # # . .
-            . # # # .
-            . # # # .
-            `).showImage(versatz)
-    }
-    for (let Index = 0; Index <= 10; Index++) {
-        versatz = -5 + Index
-        images.createImage(`
-            # # # . .
-            # # # . .
-            . # # # .
-            . # # # .
+            . . . . .
+            . . # . .
+            . . # . .
+            . . # # .
             . . . . .
             `).showImage(versatz)
     }
     for (let Index = 0; Index <= 10; Index++) {
         versatz = -5 + Index
         images.createImage(`
+            . . . . .
             . # # . .
-            . # # . .
-            . # # . .
-            . # # . .
-            . # # . .
+            . . # # .
+            . . . . .
+            . . . . .
             `).showImage(versatz)
     }
     for (let Index = 0; Index <= 10; Index++) {
         versatz = -5 + Index
         images.createImage(`
             . . . . .
-            . # # # .
-            . # # # .
-            . # # # .
+            . . # . .
+            . . # . .
+            . . # . .
+            . . # . .
+            `).showImage(versatz)
+    }
+    for (let Index = 0; Index <= 10; Index++) {
+        versatz = -5 + Index
+        images.createImage(`
+            . . . . .
+            . . # # .
+            . . # # .
+            . . . . .
             . . . . .
             `).showImage(versatz)
     }
